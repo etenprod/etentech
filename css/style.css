@@ -632,8 +632,8 @@
     @media (min-width: 1200px){
   .hero__bg{
     background-image: image-set(
-      url("hero-1080.webp") 1x,
-      url("hero-1920.webp") 2x
+      url("../images/hero-1080.webp") 1x,
+      url("../images/hero-1920.webp") 2x
     );
   }
 }
