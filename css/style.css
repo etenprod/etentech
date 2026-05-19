@@ -667,11 +667,15 @@
       .header__burger{
         display:block;
       }
+          
       .header__brand{
       font-size: 16px;
-
-    }
-
+      }
+          
+      .header__logo{
+       height: 13px;
+      }
+          
       .header__drawer{
         padding: 12px 14px;         /* было 14/14 — делаем компактнее */
   width: min(86vw, 200px);
