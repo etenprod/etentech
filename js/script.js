@@ -188,7 +188,9 @@
     });
 
     document.querySelectorAll('[data-lang-toggle]').forEach(button => {
-      button.textContent = selectedLang === 'uk' ? 'EN' : 'UA';
+      button.innerHTML = selectedLang === 'uk'
+        ? '<img src="images/flag-en.svg" alt="English">'
+        : '<img src="images/flag-ua.svg" alt="Українська">';
       button.setAttribute(
         'aria-label',
         selectedLang === 'uk' ? 'Switch to English' : 'Перемкнути українською'
