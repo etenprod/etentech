@@ -140,7 +140,7 @@ a {
 .header__icons {
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 86px;
 }
 
 .header__contactLink {
